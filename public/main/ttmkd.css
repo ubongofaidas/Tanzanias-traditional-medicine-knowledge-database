@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Segoe UI', 'Ubuntu', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    background: #f9f9fB;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.btn-secondary {
+    border: none;
+}
+
+
+/* Navigation and home style */
+
+.navbar {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    background: #ffffff !important;
+}
+
+.navbar .navbar-collapse a {
+    margin-left: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+
+a {
+    color: #212121;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+a:hover,
+button:hover {
+    color: #15a815;
+}
+
+.custom-toggler {
+    outline: none !important;
+    border: none !important;
+    top: 5px;
+    right: 0;
+}
+
+.search-input {
+    margin: 8px 0 5px 0;
+    padding: .8rem;
+    border: 1px solid #ededed;
+    box-shadow: rgba(116, 117, 119, 0.12);
+    outline: none;
+    width: 100%;
+    /*background: transparent;*/
+}
+
+.search-sb {
+    position: absolute;
+    right: 30px;
+    top: 110px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    margin: 10px 0 10px 0;
+    transition: color 1s;
+}
+
+.home-bunner .ui-autocomplete {
+    top: 24.5rem !important;
+    left: 18.1rem !important;
+}
+
+.tips .row {
+    margin-top: -100px;
+    z-index: 10;
+    position: relative;
+}
+
+/*Default style*/
+
+.card {
+    border: none !important;
+}
+
+.card-header {
+    background-color: #ffffff !important;
+}
+
+.white-bx, .owl-carousel a {
+    background: #ffffff;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/* main-content tyle*/
+
+.medicines,
+.subscribe-form {
+    padding: 10rem 0 3rem 0;
+}
+
+
+/*Tips style*/
+
+.tips .white-bx {
+    padding: 1rem;
+    text-align: center;
+}
+
+.tips .white-bx .icon {
+    padding: 10px;
+}
+
+.tips .white-bx .icon svg {
+    width: 50px;
+    height: 50px;
+    fill: #1d8000;
+}
+
+/*pagination style*/
+
+.nav-pagination {
+    margin: 16px;
+}
+
+.page-item.active .page-link {
+    z-index: 2;
+    color: #fff;
+    background-color: #1d8000;
+    border-color: #1d8000;
+}
+
+
+/*footer style*/
+
+.footer {
+    padding: 2rem;
+    color: #000000;
+}
+
+@media (max-width: 600px) {
+    .navbar .container {
+        margin: 0;
+    }
+    .navbar-brand img {
+        margin: 0;
+        width: 60%;
+    }
+    .navbar .navbar-collapse a:not(:last-child) {
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+    .home-bunner {
+        padding: 8rem 0 5rem 0;
+    }
+    h1 {
+        font-size: 150%;
+    }
+    h2 {
+        font-size: 100%;
+    }
+    .search-sb {
+        top: 142px;
+    }
+}
