@@ -36,7 +36,7 @@ https://ubongofaidas.github.io/ttmkb-ui
 ## How to install
 Please note rhis is conversion from raW PHP to Laravel;
 I did not create ito be seeded so you can get the sql data below and add them manually after doing the following steps execept the last one
-
+https://github.com/ubongofaidas/Tanzanias-traditional-medicine-knowledge-database/blob/main/sql%20file%20for%20initial%20data%20no%20seed
 
     - Clone your project
     
